@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotton Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Kasturi Cotton Shop</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Premium Quality Cotton Products</h2>
+    <p>We offer the finest quality cotton, sourced directly from sustainable farms in India.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-list">
+      <div class="product-item">
+        <img src="cotton_product1.jpg" alt="Cotton Product 1">
+        <h3>Cotton Fabric A</h3>
+        <p>$25.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="cotton_product2.jpg" alt="Cotton Product 2">
+        <h3>Cotton Fabric B</h3>
+        <p>$30.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Kasturi Cotton Shop | <a href="#privacy">Privacy Policy</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
